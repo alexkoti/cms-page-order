@@ -1,0 +1,8 @@
+{
+  "name": "jeremystrom/cms-page-order",
+  "description": "Composer-enabled CMS Page Order plugin",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.0"
+  }
+}
