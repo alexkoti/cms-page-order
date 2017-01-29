@@ -326,6 +326,7 @@ function cmspo_list_pages($args = null, $count = false) {
 		'depth' => 0,
 		'link_before' => '',
 		'link_after' => '',
+		'item_spacing' => false,
 		'walker' => $walker
 	);
 	$output = walk_page_tree($pages, 0, $args['depth'], $args);
